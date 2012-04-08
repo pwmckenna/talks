@@ -16,7 +16,7 @@ Then there was customer discovery (Palooza voting)
 
 !SLIDE
 Then all those things had a baby.
-![baby OneClick](img/angry_baby.jpg)
+![baby OneClick](../img/angry_baby.jpg)
 
 !SLIDE
 And now there is OneClick
