@@ -12,7 +12,7 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 ##Then there was a mock up (Thomas' Custom Browser)
 
 !SLIDE
-#Then there was customer discovery (Palooza voting)
+##Then there was customer discovery (Palooza voting)
 
 !SLIDE
 ##Then all those things had a baby.  
