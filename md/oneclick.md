@@ -1,6 +1,8 @@
+<style type="text/css">
 h2 {
 	text-align: center;
 }
+</style>
 
 !SLIDE
 # OneClick
