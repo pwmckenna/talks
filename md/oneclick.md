@@ -16,7 +16,7 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 
 !SLIDE
 ##Then all those things had a baby.  
-![baby OneClick](../img/angry_baby.jpg)
+<center>![baby OneClick](../img/angry_baby.jpg)</center>
 
 !SLIDE
 ##And now there is OneClick
@@ -24,9 +24,3 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 !SLIDE
 > Yo dawg, I heard you were confused by torrents when you were downloading, so I put a download in your torrent so you can forget about torrents while you're downloading  
 -xzibit
-
-<style type="text/css">
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-}
-</style>
