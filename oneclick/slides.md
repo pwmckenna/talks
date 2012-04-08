@@ -15,11 +15,7 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 (Thomas' Browser)
 
 !SLIDE
-##Then there was customer discovery  
-(Palooza voting)
-
-!SLIDE
-##Then all those things had a baby.  
+##And all those things had a baby.  
 ![baby OneClick](img/angry_baby.jpg)
 
 !SLIDE
