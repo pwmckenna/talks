@@ -1,0 +1,5 @@
+slidedown oneclick/slides.md > oneclick/slides.html
+slidedown talk_preparation/slides.md > talk_preparation/slides.html
+slidedown torque_introduction/slides.md > torque_introduction/slides.html
+slidedown torque_security/slides.md > torque_security/slides.html
+slidedown torque_stats/slides.md > torque_stats/slides.html
