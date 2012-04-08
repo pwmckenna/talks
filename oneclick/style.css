@@ -1,6 +1,3 @@
-body {
-	background-color: blue;
-}
-#slides !important {
-	text-align: center;
+* {
+	color: blue;
 }
