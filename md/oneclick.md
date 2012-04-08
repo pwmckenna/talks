@@ -13,7 +13,6 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 
 !SLIDE
 ##Then there was customer discovery (Palooza voting)
-...to be fair, the download experience is the only similarity, so perhaps its a bit of a stretch to assume this applies
 
 !SLIDE
 ##Then all those things had a baby.  
