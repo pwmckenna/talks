@@ -16,7 +16,7 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 
 !SLIDE
 ##Then all those things had a baby.  
-<img style="text-align:center;" src="../img/angry_baby.jpg" />
+<img style="width:400px; left:50%; margin-left:200px;" src="../img/angry_baby.jpg" />
 
 !SLIDE
 ##And now there is OneClick
