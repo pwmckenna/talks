@@ -1,7 +1,8 @@
-slidedown md/torque_introduction.md > html/torque_introduction.html; 
-slidedown md/torque_security.md > html/torque_security.html; 
-slidedown md/torque_stats.md > html/torque_stats.html;
-slidedown md/oneclick.md > html/oneclick.html;
-slidedown md/preparation.md > html/preparation.html;
+slidedown oneclick/slides.md > oneclick/slides.html
+slidedown talk_preparation/slides.md > talk_preparation/slides.html
+slidedown torque_introduction/slides.md > torque_introduction/slides.html
+slidedown torque_security/slides.md > torque_security/slides.html
+slidedown torque_stats/slides.md > torque_stats/slides.html
+
 git commit -a -m "updating talk"; 
 git push origin gh-pages;
