@@ -9,10 +9,11 @@ Art Yerkes, Kyle Graehl, Patrick Williams
 ##Then there was a socket twiddler (Art's LSP)
 
 !SLIDE
-##Then there was a mock up (Thomas' Custom Browser)
+##Then there was a mock up (Thomas' Browser)
 
 !SLIDE
 ##Then there was customer discovery (Palooza voting)
+...to be fair, the download experience is the only similarity, so perhaps its a bit of a stretch to assume this applies
 
 !SLIDE
 ##Then all those things had a baby.  
