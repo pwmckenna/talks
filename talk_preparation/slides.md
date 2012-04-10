@@ -10,7 +10,7 @@ Do you:
 * Have a mac?  
 * Comfortable on the command line?  
 (can you type "slidedown *filename.md* > *filename.html"?*)
-* Have no idea how to give a talk?  
+* Have no idea how to give a talk, or prepare slides?  
 * Have something to say (you do...even Brandon)  
 
 !SLIDE
@@ -21,7 +21,7 @@ Scott Hanselman's [*The Art of Speaking*](http://dl.dropbox.com/u/4128694/ft_spe
 
 Bret Victor's [*Inventing on Principle*](http://vimeo.com/36579366 "inventing on principle")
 <br>  
-#######...Victor's talk is just a great example of a successful tech talk
+#######...Victor's talk is both a great example of a successful tech talk, and an inspiring look at how to nurture ideas.  
 
 !SLIDE
 #Setup  
@@ -43,14 +43,14 @@ Turns Markdown (.md) documents into html slideshows. Requires node package manag
 <br>
 * [GitHub Pages](http://help.github.com/pages/ "github pages")  
 Use the gh-pages branch. GitHub will host that content like a web server.  
-*http://pwmckenna.github.com/talks/talk_preparation/slides.html*
+*http://pwmckenna.github.com/talks/talk_preparation/slides.html*  
 * [Optimal Layout](http://most-advantageous.com/optimal-layout/)  
 Helps you quickly arrange windows side-by-side.
 
 !SLIDE
 #Workflow
 * Sublime Text and Marked split screened.
-* Type + Save -> Marked preview will update.
+* Type + Save -> Marked preview will update to show you formatted Markdown in realtime.
 
 !SLIDE
 #Syntax
