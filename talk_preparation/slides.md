@@ -1,5 +1,5 @@
 !SLIDE
-#Talking The Talk  
+#Talking The Talk
 @pwmckenna  
 Patrick Williams  
 
@@ -17,12 +17,13 @@ Do you:
 
 !SLIDE
 #Speaking is like any other skill.
-### RTFM...or watch these
+#### RTFM...or watch these
+<br>  
 Scott Hanselman's [*The Art of Speaking*](http://dl.dropbox.com/u/4128694/ft_speaker_1.zip "the art of speaking")
 
 Bret Victor's [*Inventing on Principle*](http://vimeo.com/36579366 "inventing on principle")
-
-######...Victor's talk is just a great example of a successful tech talk
+<br>  
+#######...Victor's talk is just a great example of a successful tech talk
 
 !SLIDE
 #Setup  
@@ -40,22 +41,22 @@ Turns Markdown (.md) documents into html slideshows. Requires node package manag
 !SLIDE
 #Helpful additions
 * [GitHub Pages](http://help.github.com/pages/ "github pages")  
-If you use the gh-pages branch instead of master for your talks repo, you can just run the slideshow directly off of github.
+Use the gh-pages branch. GitHub will host that content like a web server.  
+*http://pwmckenna.github.com/talks/talk_preparation/slides.html*
 * [Optimal Layout](http://most-advantageous.com/optimal-layout/)  
 Helps you quickly arrange windows side-by-side.
 
 !SLIDE
 #Workflow
-* Open up Sublime Text and Marked side by side.
-* Start writing...when you save you'll see the Marked preview update.
+* Sublime Text and Marked split screened.
+* Edit + Save -> Marked preview will update.
 * Start each new slide with *!SLIDE*  
-this is not valid Markdown, but is used by Slidedown to divide your file into seperate slides.
-* Start each slide with a line that starts with *#*  
-it'll be the page's header.
+Not valid Markdown, but is used by Slidedown.
+* Use # to give each slide a header.
 
 !SLIDE
 #In Action
-![](workflow.png)
+<img width="100%" src="workflow.png" />
 
 !SLIDE
 #Go forth and speak
