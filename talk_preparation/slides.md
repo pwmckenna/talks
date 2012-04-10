@@ -65,7 +65,7 @@ This guy has a slightly more than bare bones directory structure on git that wil
 
 !SLIDE
 #In Action
-<img width="90%" src="workflow.png" />
+<img height="80%" src="workflow.png" />
 
 !SLIDE
 #Why this setup?
