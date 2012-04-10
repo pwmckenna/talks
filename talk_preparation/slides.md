@@ -11,7 +11,7 @@ Do you:
 * Comfortable on the command line?  
 (can you type "slidedown *filename.md* > *filename.html"?*)
 * Have no idea how to give a talk?  
-* Have something to say (you do)  
+* Have something to say (you do...even Brandon)  
 
 !SLIDE
 #Speaking is just a skill.
