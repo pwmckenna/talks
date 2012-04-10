@@ -4890,7 +4890,7 @@ An unfancy uTorrent/BitTorrent that is best heard, but not seen.</li>
         
           <div class="">
             <div id="slide-2" class="content">
-              <h1>Ok. Lets focus on the javascript. What can we do with it?</h1><ul>
+              <h1>Ok. What can we do with the javascript library?</h1><ul>
 <li>It downloads files to your computer</li>
 <li>share files from your computer to anyone else</li>
 <li>access devices and other computers on attached or on the lan</li>
@@ -4946,7 +4946,7 @@ Access anything, from anywhere =</p><p><strong>Hard to conceptualize.</strong></
         
           <div class="">
             <div id="slide-8" class="content">
-              <h1>What can we do?</h1><h3>Make it easy to play with ideas!</h3><br><br><br><br><p>Watch: <strong>Bret Victor</strong>'s <a href="http://vimeo.com/36579366"><em>Inventing on Principle</em></a></p>
+              <h1>What can we do?</h1><br><br><h3>Make it easy to play with ideas!</h3><br><br><p>Watch: <strong>Bret Victor</strong>'s <a href="http://vimeo.com/36579366"><em>Inventing on Principle</em></a></p>
             </div>
           </div>
         
@@ -4963,9 +4963,9 @@ Access anything, from anywhere =</p><p><strong>Hard to conceptualize.</strong></
             </div>
           </div>
         
-          <div class="">
+          <div class="  ">
             <div id="slide-10" class="content">
-              <h1>Lets take a peek at how easy those easy cases can be</h1><ul>
+              <h1>How easy can the simple use cases be?</h1><ul>
 <li>crysalis programming demo</li>
 <li>add torrent button...demo along side the api viewer</li>
 <li>show torrent/file info with recheck button</li>
@@ -4975,25 +4975,31 @@ Access anything, from anywhere =</p><p><strong>Hard to conceptualize.</strong></
         
           <div class="">
             <div id="slide-11" class="content">
+              <h1>Getting torrent data</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-12" class="content">
               <h1>Uh oh!</h1><h3>Simple functionality, but complicated code!</h3><p>No great way to handle listening for events on models/collections that don't exist yet.<br>
 This is a problem all backbone apps will have, but most mirror a server comprised of flat database tables.</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-12" class="content">
+            <div id="slide-13" class="content">
               <h1>BtappListener.js to the rescue</h1><p>BtappListener.js allows you to specify add model/collection handlers for objects who's parent doesn't exist yet.</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-13" class="content">
+            <div id="slide-14" class="content">
               <h1>Phew</h1><p>Hopefully this is starting to feel like our goal of simple functionality, simple code.</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-14" class="content">
+            <div id="slide-15" class="content">
               <h1>What about those more complicated ideas?</h1><ul>
 <li>DHT can serve as a firehose of random content</li>
 <li>Distribute peer lookup.</li>
@@ -5002,14 +5008,20 @@ This is a problem all backbone apps will have, but most mirror a server comprise
           </div>
         
           <div class="">
-            <div id="slide-15" class="content">
+            <div id="slide-16" class="content">
               <h1>Demo time!</h1><p>(Chrome extension showing dht traffic)</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-16" class="content">
-              <h1>Conclusion</h1>
+            <div id="slide-17" class="content">
+              <h1>Getting Started</h1><br><br><h4>Add to index.html</h4><p><code>  
+ &lt;script type="text/javascript" src="apps.bittorrent.com/torque/btapp/btapp.js" /&gt;
+</code></p><br><br><h4>Add to index.js</h4><p><code>
+btapp = new Btapp;
+</code><br><code>
+btapp.connect();
+</code></p>
             </div>
           </div>
         

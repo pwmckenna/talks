@@ -3,7 +3,6 @@
 Patrick Williams  
 @pwmckenna  
 
-
 !SLIDE
 # What is it?
 * __Javascript library (btapp.js)__  
@@ -14,7 +13,7 @@ This thing was a pain to write/maintain/etc. Be glad you're protected from it.
 An unfancy uTorrent/BitTorrent that is best heard, but not seen.  
 
 !SLIDE
-#Ok. Lets focus on the javascript. What can we do with it?  
+# Ok. What can we do with the javascript library?  
 * It downloads files to your computer  
 * share files from your computer to anyone else  
 * access devices and other computers on attached or on the lan  
@@ -25,7 +24,7 @@ An unfancy uTorrent/BitTorrent that is best heard, but not seen.
 * all functionality is available over falcon as well  
 
 !SLIDE
-#Demo time!
+# Demo time!
 ```
 var btapp = new Btapp;
 ```  
@@ -34,32 +33,33 @@ btapp.connect();
 ```
 
 !SLIDE
-#Demo time! (api viewer)
+# Demo time! (api viewer)
 Show api viewer demo (go through the list and show where the mentioned functionality is represented)  
 
 !SLIDE
-#Possible extentions:  
+# Possible extentions:  
 * distributed storage  
 * access to phones/xbox/dlna/etc  
 * distributed share  
 
 !SLIDE
-#Demo time! (data flow map)
+# Demo time! (data flow map)
 Show bart map showing where data use to be able to move from/to (ie, server <--> client)  
 Show update based on torque/falcon (server <--> client <--> client <--> nat to nat <--> clients with no known ip, etc)  
 Show plans for extentions to data flow (phones, xbox, lan)  
 
 !SLIDE
-#Data/Functionality overload!
+# Data/Functionality overload!
 Lots of data/functionality +  
 Access anything, from anywhere =  
   
 __Hard to conceptualize.__
 
 !SLIDE
-#What can we do?
-###Make it easy to play with ideas!
-<br><br><br><br>
+# What can we do?
+<br><br>
+### Make it easy to play with ideas!
+<br><br>
 Watch: __Bret Victor__'s [*Inventing on Principle*](http://vimeo.com/36579366)
 
 !SLIDE  
@@ -71,28 +71,31 @@ __Keep them simple.__
 __Don't get in the way of ideas blossoming__  
 
 
-!SLIDE
-#Lets take a peek at how easy those easy cases can be
+!SLIDE  
+# How easy can the simple use cases be?  
 * crysalis programming demo  
 * add torrent button...demo along side the api viewer  
 * show torrent/file info with recheck button  
 
 !SLIDE
-#Uh oh! 
-###Simple functionality, but complicated code!
+#Getting torrent data  
+
+!SLIDE
+# Uh oh! 
+### Simple functionality, but complicated code!
 No great way to handle listening for events on models/collections that don't exist yet.  
 This is a problem all backbone apps will have, but most mirror a server comprised of flat database tables.
 
 !SLIDE
-#BtappListener.js to the rescue
+# BtappListener.js to the rescue
 BtappListener.js allows you to specify add model/collection handlers for objects who's parent doesn't exist yet.
 
 !SLIDE
-#Phew
+# Phew
 Hopefully this is starting to feel like our goal of simple functionality, simple code.
 
 !SLIDE
-#What about those more complicated ideas?
+# What about those more complicated ideas?
 * DHT can serve as a firehose of random content
 * Distribute peer lookup. 
 
@@ -101,4 +104,19 @@ Hopefully this is starting to feel like our goal of simple functionality, simple
 (Chrome extension showing dht traffic)  
 
 !SLIDE
-# Conclusion
+#Getting Started
+<br><br>
+####Add to index.html  
+```  
+ <script type="text/javascript" src="apps.bittorrent.com/torque/btapp/btapp.js" />
+```  
+<br><br>
+####Add to index.js  
+
+```
+btapp = new Btapp;
+```  
+```
+btapp.connect();
+```
+
