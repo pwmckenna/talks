@@ -45,7 +45,9 @@ Turns Markdown (.md) documents into html slideshows. Requires node package manag
 Use the gh-pages branch. GitHub will host that content like a web server.  
 *http://pwmckenna.github.com/talks/talk_preparation/slides.html*  
 * [Optimal Layout](http://most-advantageous.com/optimal-layout/)  
-Helps you quickly arrange windows side-by-side.
+Helps you quickly arrange windows side-by-side.  
+* [Basic Template](https://github.com/soveran/slidedown-skeleton])  
+This guy has a slightly more than bare bones directory structure on git that will get you up and running quickly.  
 
 !SLIDE
 #Workflow
