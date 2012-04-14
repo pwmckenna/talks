@@ -4,7 +4,7 @@ Patrick Williams
 @pwmckenna  
 
 !SLIDE
-#Caveats! 
+#Conditions:
 Do you:  
 
 * Have a mac?  
