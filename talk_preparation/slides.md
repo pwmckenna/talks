@@ -71,12 +71,10 @@ This guy has a slightly more than bare bones directory structure on git that wil
 #Why this setup?
 * Instant feedback = very rapid editing...these slides took minutes
 * Faster than HTML for simple slides (most of them)
-* Markdown supports inline html, so if you want to customize, you can go nuts
 * Supports custom css, inline or global
+* Markdown supports inline html, so if you want to customize, you can go nuts...like this
 
-!SLIDE
-#Can your slides do this?
-<iframe src="http://news.ycombinator.com" style="height:80%; width:90%;"></iframe>
+<iframe src="http://news.ycombinator.com" style="height:20%; width:100%;"></iframe>
 
 !SLIDE
 #Go forth and speak
