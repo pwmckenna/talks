@@ -75,6 +75,10 @@ This guy has a slightly more than bare bones directory structure on git that wil
 * Supports custom css, inline or global
 
 !SLIDE
+#Can your slides do this?
+<iframe src="http://news.ycombinator.com" style="height:80%; width:90%;"></iframe>
+
+!SLIDE
 #Go forth and speak
 We don't know all of the technology  
 We don't know everyone's role  
