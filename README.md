@@ -1,3 +1,8 @@
+gem install open4
+gem install pygmentize
+gem install slidedown
+
+
 [slidedown](https://github.com/nakajima/slidedown "slidedown") talks  
 
 once you've installed slidedown, just edit any of the markdown files and run *./generate.bs*...the corresponding html file should contain your updated slides.
